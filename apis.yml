@@ -1,8 +1,25 @@
 aid: opensense-formerly-sendergen
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opensense-formerly-sendergen.png
 name: Opensense (formerly SenderGen)
-description: Opensense (formerly SenderGen) is a company surfaced as a portfolio company of bloomberg-beta
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Opensense (formerly SenderGen) is an email signature management platform that
+  centrally governs email signatures, banners, and digital business cards across
+  Microsoft 365 and Google Workspace. It lets IT enforce on-brand, compliant
+  signatures while marketing and sales teams run targeted campaigns, track
+  engagement, and connect to CRM and marketing platforms such as Salesforce,
+  HubSpot, Marketo, and Outreach. Opensense is SOC 2 Type II attested and
+  operates under GDPR and CCPA. It exposes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/opensense-formerly-sendergen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Email Signature Management
+- Email Marketing
+- Brand Management
+- Sales Enablement
+- Marketing
+- Email
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +47,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.opensense.com/
+- type: Support
+  url: https://help.opensense.com/
+- type: Pricing
+  url: https://www.opensense.com/pricing
+- type: Blog
+  url: https://www.opensense.com/blog
+- type: Login
+  url: https://app.opensense.com
+- type: SignUp
+  url: https://www.opensense.com/demo
+- type: PrivacyPolicy
+  url: https://www.opensense.com/privacy-policy
+- type: TermsOfService
+  url: https://www.opensense.com/terms-and-conditions
+- type: StatusPage
+  url: https://status.opensense.com
+- type: Lifecycle
+  url: lifecycle/opensense-formerly-sendergen-lifecycle.yml
+- type: TrustCenter
+  url: security/opensense-formerly-sendergen-trust-center.yml
+- type: Compliance
+  url: https://www.opensense.com/security
+- type: DomainSecurity
+  url: security/opensense-formerly-sendergen-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/opensense-formerly-sendergen-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.opensense.com/security
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

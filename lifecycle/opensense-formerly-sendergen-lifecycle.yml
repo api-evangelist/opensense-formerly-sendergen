@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.opensense.com/security
+status_page: https://status.opensense.com
+sla:
+  url: https://www.opensense.com/security
+  uptime_target: "99.9%"
+versioning: null
+deprecation: null
+deprecated_operations: []
+notes: >-
+  Opensense publishes a public status page (status.opensense.com) and states a
+  99.9% uptime SLA on its security page. No public API versioning or deprecation
+  policy is published; the product exposes no public developer API surface.
