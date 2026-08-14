@@ -1,15 +1,22 @@
 aid: opensense-formerly-sendergen
 accessModel:
-  pricing: unknown
+  pricing: paid
   onboarding: approval
-  trial: false
+  trial: true
   try_now: false
   public: false
   label: Requires approval
-  confidence: medium
-  source: []
-  generated: '2026-07-22'
-  method: derived
+  confidence: high
+  source:
+  - https://www.opensense.com/pricing
+  - https://www.opensense.com/demo
+  note: >-
+    List pricing is published publicly ($1/$3/$5 per user/month for signatures,
+    $20/$55/$65 for tracking) but every plan carries a $500/month account
+    minimum and sign-up runs through a demo request, so access is approval-gated
+    rather than self-service. Trials are offered to qualified accounts only.
+  generated: '2026-08-13'
+  method: searched
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opensense-formerly-sendergen.png
 name: Opensense (formerly SenderGen)
 description: >-
@@ -18,8 +25,13 @@ description: >-
   Microsoft 365 and Google Workspace. It lets IT enforce on-brand, compliant
   signatures while marketing and sales teams run targeted campaigns, track
   engagement, and connect to CRM and marketing platforms such as Salesforce,
-  HubSpot, Marketo, and Outreach. Opensense is SOC 2 Type II attested and
-  operates under GDPR and CCPA. It exposes no public developer API surface.
+  HubSpot, Marketo, and Outreach. Opensense is SOC 2 Type II attested, operates
+  under GDPR and CCPA, and is the only email signature platform running inside
+  Microsoft 365 GCC High for ITAR, DFARS, CMMC and FedRAMP-driven tenants. It
+  advertises a REST API for custom integrations and serves an llms.txt on both
+  its marketing and documentation hosts, but publishes no developer portal, no
+  API reference and no machine-readable specification; API keys are issued
+  manually by an Opensense integration specialist.
 url: https://raw.githubusercontent.com/api-evangelist/opensense-formerly-sendergen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +41,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-13'
 tags:
 - Company
 - Email Signature Management
@@ -75,8 +87,38 @@ common:
   url: security/opensense-formerly-sendergen-vulnerability-disclosure.yml
 - type: Security
   url: https://www.opensense.com/security
+- type: Documentation
+  url: https://help.opensense.com/
+- type: LLMsTxt
+  url: llms/opensense-formerly-sendergen-llms.txt
+- type: Plans
+  url: plans/opensense-formerly-sendergen-plans-pricing.yml
+- type: Authentication
+  url: authentication/opensense-formerly-sendergen-authentication.yml
+- type: Conformance
+  url: conformance/opensense-formerly-sendergen-conformance.yml
 x-enrichment:
-  date: '2026-07-20'
+  date: '2026-08-13'
   status: enriched
-  artifacts_added: 4
+  artifacts_added: 8
   pass: local-v1
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: >-
+    Opensense advertises a "robust API" on opensense.com/integrations and in its
+    own llms.txt, but the only documented way to get a credential is the Zapier
+    setup page, which says an Opensense integration specialist will provide an
+    API key — there is no developer portal, no API reference among the 190 pages
+    indexed in help.opensense.com/llms.txt, and api.opensense.com 302s to the
+    marketing site with every spec path returning text/plain "Not Found".
+  evidence:
+  - url: https://api.opensense.com/openapi.json
+    status: 404
+  - url: https://api.opensense.com/
+    status: 302
+  - url: https://help.opensense.com/docs/zapier-integration.md
+    status: 200
+  - url: https://www.opensense.com/llms.txt
+    status: 200
+  checked: '2026-08-13'
