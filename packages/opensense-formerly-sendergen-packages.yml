@@ -1,0 +1,35 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  npm registry search, PyPI, RubyGems, GitHub org + repository search,
+  https://www.opensense.com/integrations, https://www.opensense.com/llms.txt
+package_count: 0
+packages: []
+registries_checked:
+- registry: npm
+  query: https://registry.npmjs.org/-/v1/search?text=opensense
+  result: no first-party package; matches are unrelated (open.sen.se IoT module, @mangar2/opensensemap)
+- registry: pypi
+  query: https://pypi.org/pypi/opensense/json
+  result: >-
+    HTTP 200 but NOT this company — "opensense" 0.0.1 on PyPI is a WiFi CSI
+    sensing benchmark library (github.com/xyanchen/WiFi-CSI-Sensing-Benchmark).
+    opensense-api and opensense-sdk both 404.
+- registry: rubygems
+  query: https://rubygems.org/api/v1/gems/opensense.json
+  result: 404
+- registry: github
+  query: https://api.github.com/orgs/OpenSense
+  result: >-
+    HTTP 200 but NOT this company — the github.com/OpenSense org (created
+    2013-04-06, 2 repos) is an Android/HTC Sensation ROM project, unrelated to
+    Opensense the email signature platform. Opensense publishes no GitHub
+    organization of its own that could be located.
+notes: >-
+  Opensense ships no first-party client libraries on any public package
+  registry. Its integration surface is delivered as native platform add-ins
+  (Microsoft 365 Outlook add-in, Google Workspace add-on), pre-built SaaS
+  connectors (Salesforce, HubSpot, Marketo, Outreach, Okta, Workday, BambooHR,
+  Front, Zapier), and a REST API that is advertised but not publicly
+  documented. No SDKs pointer is emitted because no SDK exists — this is a
+  recorded zero, not an unchecked field.

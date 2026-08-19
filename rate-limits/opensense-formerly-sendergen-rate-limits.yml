@@ -1,0 +1,21 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  https://help.opensense.com/llms.txt (190-page documentation index),
+  https://www.opensense.com/integrations, https://help.opensense.com/docs/zapier-integration.md
+limit_count: 0
+limits: []
+headers: []
+status_on_exhaustion: null
+notes: >-
+  Opensense publishes no rate limits. The full help-centre index (190 pages,
+  enumerated in help.opensense.com/llms.txt) contains no API reference,
+  quota, throttling or rate-limit page, and the marketing site advertises a
+  "robust API" without linking documentation. Directory sync cadence IS
+  documented (help.opensense.com/docs/automatic-sync-frequency.md) but that is
+  a scheduled-sync interval for the platform's own connectors, not a caller-
+  facing request limit, so it is not recorded as one. No rate-limit response
+  headers could be observed because no anonymous API endpoint exists to call:
+  api.opensense.com 302s to the marketing site and every path under it 404s.
+  This is a recorded zero, not an unchecked field; no RateLimits pointer is
+  emitted because there is nothing published to point at.

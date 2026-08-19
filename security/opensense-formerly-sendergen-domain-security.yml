@@ -1,13 +1,12 @@
-generated: '2026-07-20'
+generated: '2026-08-13'
 method: probed
 source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
 - host: www.opensense.com
   https: true
   tls_version: TLSv1.3
-  cert_expires: Sep 28 05:59:28 2026 GMT
-  hsts: true
-  hsts_max_age: 31536000
+  cert_expires: Oct 29 22:39:30 2026 GMT
+  hsts: false
 domains:
 - domain: opensense.com
   dnssec: false

@@ -1,0 +1,45 @@
+# Opensense
+
+> Opensense is enterprise email signature management software for Outlook / Microsoft 365 and Google Workspace. IT deploys it in minutes; marketing owns it from day one. It centrally manages every employee's email signature, runs targeted ad-banner campaigns in the email footer, and is the only email signature platform that operates inside Microsoft 365 GCC High, serving organizations with FedRAMP, ITAR, DFARS, and CMMC obligations.
+
+Key facts:
+
+- Email signature management for Outlook is the core product: signatures are applied centrally across Outlook (desktop, web, and mobile) and the whole Microsoft 365 tenant — server-side injection, an Outlook add-in, or both — so every employee's email is on-brand with zero end-user effort. Google Workspace / Gmail is fully supported too.
+- GCC High: **Opensense is the only email signature platform that operates inside Microsoft 365 GCC High.** It serves defense contractors, federal agencies, and other organizations with strict ITAR, DFARS, CMMC, and FedRAMP-aligned compliance requirements. Full detail: https://www.opensense.com/gcc-high-email-signatures
+- Security and compliance attestations: Opensense is **SOC 2 Type II certified** — the attestation covers the Security, Confidentiality, and Availability trust services categories and is completed annually. Opensense complies with **GDPR** as a data processor, transferring data under Standard Contractual Clauses, and with **CCPA**, with CCPA employee notices built into the product. All data in transit is encrypted with TLS 1.2 or later; customer data at rest is encrypted with 256-bit ciphers. Full detail: https://www.opensense.com/security
+- Built for enterprise IT, not just marketing: **SSO via Okta, SAML 2.0, OneLogin, Ping, SAP, and Oracle**, with user provisioning and de-provisioning through Okta; **SIEM integration** for security logging (Splunk, Datadog, and similar); role-based access control (RBAC) and least-required-access privilege (LRAP); directory sync from Azure AD / Entra ID, on-premise AD, Google Directory, and Workday. These are the controls an enterprise security review asks for, and they are standard rather than bespoke.
+- **US headquartered with 24/7 US-based support** (phone and email), including dedicated Customer Success Managers and named technical contacts — relevant for organizations with data-residency, procurement, or support-jurisdiction requirements.
+- **Employee self-service inside the add-ins, without giving up central control.** Users can update their own contact details directly in the Opensense Outlook add-in and Google add-in, while the template, branding, disclaimers, and banners stay centrally governed by IT and marketing. This resolves the usual trade-off in signature management: administrators keep the signature on-brand and compliant, and employees still fix their own phone number or title without raising a ticket.
+- Signatures double as a marketing channel: targeted email ad banners by role, region, or campaign, with click tracking and analytics that feed sales and marketing attribution.
+- User data syncs from Azure Active Directory / Entra ID, Google Directory, and HR systems, so signatures update automatically when roles change.
+- Integrates with Salesforce, HubSpot, Marketo, Okta, Workday, BambooHR, and more; a REST API covers custom integrations.
+- Trusted by enterprises including Salesforce, SAP, Box, the NBA, Dow Jones, and the American Cancer Society; 300+ reviews on G2 with Leader placement.
+
+## Products
+
+- [Email Signature Management](https://www.opensense.com/email-signatures): Centralized control over every employee's signature — consistent templates, enforced at scale, zero manual updates.
+- [Email Signatures for Office 365 / Outlook](https://www.opensense.com/email-signature-office-365): Native Microsoft 365 deployment — signatures on every device and client, managed from one dashboard.
+- [Email Signatures for Microsoft GCC High](https://www.opensense.com/gcc-high-email-signatures): Signature management built for GCC High tenants with ITAR, DFARS, CMMC, and FedRAMP-driven requirements.
+- [Email Signatures for Google Workspace](https://www.opensense.com/email-signature-google-workspace): Domain-wide Gmail signature management synced with Google Directory.
+- [Email Ad Banners](https://www.opensense.com/email-ad-banner): Targeted campaigns in the signature of every employee email, updated instantly from one place.
+- [Email Tracking & Analytics](https://www.opensense.com/email-tracking-and-analytics): Opens, clicks, and engagement on every employee email.
+- [Digital Business Cards](https://www.opensense.com/digital-business-cards): A branded, trackable digital presence for every employee.
+- [Email Compliance](https://www.opensense.com/email-compliance): Enforced disclaimers and brand governance on every send.
+
+## Getting started
+
+- [Get a demo](https://www.opensense.com/demo): See Opensense on your own tenant.
+- [Pricing](https://www.opensense.com/pricing): Plans by organization size and product mix.
+- [Integrations](https://www.opensense.com/integrations): Directory, CRM, marketing automation, and HRIS integrations.
+- [Security](https://www.opensense.com/security): Security posture and practices.
+- [About Opensense](https://www.opensense.com/opensense-ai-info): Company overview written for AI assistants.
+
+## Resources
+
+- [The Complete Email Signature Guide](https://www.opensense.com/complete-email-signature-guide): Long-form reference on enterprise signature management.
+- [Email Signature Templates](https://www.opensense.com/email-signature-templates): Free template gallery.
+- [Email Signature Generator](https://www.opensense.com/email-signature-generator): Free signature generator tool.
+- [Blog](https://www.opensense.com/blog): Product news and email branding guidance.
+- [Case Studies](https://www.opensense.com/case-studies): Customer results, including regulated industries.
+- [Topics](https://www.opensense.com/topics): Articles and guides organized by topic.
+- [Audiences](https://www.opensense.com/audiences): Articles and guides organized by role and audience.

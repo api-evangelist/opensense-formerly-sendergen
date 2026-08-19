@@ -1,4 +1,4 @@
-generated: '2026-07-20'
+generated: '2026-08-13'
 method: searched
 probe: true
 source: https://www.opensense.com/security
@@ -6,6 +6,7 @@ url: https://www.opensense.com/security
 certifications:
 - SOC 2
 - HIPAA
+- FedRAMP
 - GDPR
 evidence:
 - source: https://www.opensense.com/security
@@ -13,4 +14,14 @@ evidence:
   - soc 2
   - soc2
   - hipaa
+  - fedramp
   - gdpr
+notes: >-
+  FedRAMP appears here from a keyword match on the Opensense security page and
+  must be read narrowly: Opensense states it operates inside Microsoft 365 GCC
+  High and serves tenants with FedRAMP, ITAR, DFARS and CMMC obligations. That
+  is compliance ALIGNMENT via the host tenancy, not an independent FedRAMP
+  authorization of Opensense itself — no ATO or FedRAMP Marketplace listing was
+  located. SOC 2 is a Type II attestation covering Security, Confidentiality
+  and Availability, completed annually. See
+  conformance/opensense-formerly-sendergen-conformance.yml for the graded read.

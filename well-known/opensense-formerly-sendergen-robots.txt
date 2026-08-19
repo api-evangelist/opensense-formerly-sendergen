@@ -1,0 +1,59 @@
+# AI assistants, AI search, and agent traffic — all allowed, including the
+# training crawlers (decision 2026-07-31). When an assistant answers "what are
+# the best email signature tools?" without a web search — the common case — it
+# can only name vendors present in its training corpus.
+#
+# NOTE: named groups do NOT inherit from `*` — the wildcard group applies only
+# to crawlers that no named group matches, and records sharing a product token
+# are merged (RFC 9309 §2.2.1). Every disallow that applies to `*` must
+# therefore be repeated here, or these agents would be silently exempt from it.
+# Keep the two lists in sync.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: DuckAssistBot
+User-agent: CCBot
+User-agent: cohere-ai
+User-agent: FirecrawlAgent
+User-agent: AndiBot
+User-agent: ExaBot
+User-agent: PhindBot
+User-agent: YouBot
+Disallow: /api/
+Disallow: /*?filter=
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*?ref=
+Disallow: /*?sort=
+Allow: /
+
+# Allow traditional search indexing
+User-agent: Googlebot
+User-agent: Bingbot
+Allow: /
+
+# Allow Screaming Frog
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+# General bot rules
+User-agent: *
+Disallow: /api/
+Disallow: /*?filter=
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*?ref=
+Disallow: /*?sort=
+
+Sitemap: https://www.opensense.com/sitemap.xml

@@ -1,0 +1,196 @@
+# Opensense
+
+> Knowledge base documentation for Opensense.
+
+## v1
+
+- [Opensense Portal Admin Roles](https://help.opensense.com/docs/opensense-admin-roles.md): A breakdown of Opensense portal admin roles, including page-level access for Domain Admin, Signature Admin, Marketing Admin, and User roles.
+- [Introduction to Designer Studio](https://help.opensense.com/docs/introduction-to-designer-studio.md)
+- [Creating a new signature](https://help.opensense.com/docs/creating-a-new-signature.md): Create a professional, on-brand email signature in Opensense's Designer Studio with options to start from scratch, use a customizable template, or request a custom design. Choose a blank signature for complete control, a prebuilt template for speed and mobile compatibility, or enlist our team for a pixel-perfect, compliant signature. Each option supports consistent brand identity, saves time, and ensures seamless functionality across devices and email clients.
+- [Editing a signature](https://help.opensense.com/docs/editing-a-signature.md): Design and customize professional email signatures with Opensense’s signature editor, providing full control over HTML and CSS for unique branding. Modify layouts, add signature fields, and adjust reply templates to enhance email marketing impact. The intuitive Designer Studio allows easy editing with real-time previews, syntax highlighting, and error-checking. Manage fields like name, title, and contact info, reorder for clear layouts, and preview for accuracy. Perfect for teams, Opensense simplifies consistent signature management across organizations, helping boost brand visibility and professionalism in every email.
+- [Cloning a Signature](https://help.opensense.com/docs/cloning-a-signature.md): Opensense’s cloning feature allows you to easily duplicate email signatures, replicating all fields, templates, and settings for consistent branding across departments. Use 'Clone' to create variations within the same account, or 'Clone to Domain' for organization-wide uniformity across multiple accounts. Admin-only access to 'Clone to Domain' ensures secure and compliant signature management.
+- [Deleting a signature](https://help.opensense.com/docs/deleting-a-signature.md): Delete email signatures in Opensense easily through the Designer Studio or Signature Editor. Access the actions menu on any signature card or within the editor to remove a signature, with a confirmation step to prevent accidental deletion. This quick process ensures efficient management of your account’s signature inventory.
+- [How to use the signature editor](https://help.opensense.com/docs/how-to-use-the-signature-editor.md): Opensense’s Signature Studio Editor lets you fully customize email signatures with HTML, CSS, and field management for a branded, professional look. Real-time previews, Syntax Highlighting, and Code Linting streamline error-free editing, ensuring consistency and accuracy. Boost brand visibility and maintain a cohesive, polished email signature across your organization.
+- [Introduction to the Pusher Tool](https://help.opensense.com/docs/introduction-to-pusher.md)
+- [How to Use the Pusher Tool](https://help.opensense.com/docs/how-to-use-pusher.md)
+- [Business Card Overview](https://help.opensense.com/docs/digital-business-cards.md)
+- [Designer Studio](https://help.opensense.com/docs/designer-studio.md)
+- [Routing](https://help.opensense.com/docs/routing-2.md)
+- [Marketing Table of Contents](https://help.opensense.com/docs/marketing-table-of-contents.md)
+- [Introduction to Performance](https://help.opensense.com/docs/introduction-to-performance.md)
+- [How to Use the Performance Dashboard](https://help.opensense.com/docs/performance-dashboard.md)
+- [Introduction to Campaigns](https://help.opensense.com/docs/introduction-to-campaigns.md)
+- [Banner Best Practices](https://help.opensense.com/docs/banner-best-practices.md)
+- [Campaign Initial Configuration](https://help.opensense.com/docs/initial-setup.md)
+- [How to Create a New Campaign](https://help.opensense.com/docs/creating-banner-campaign.md)
+- [How to Edit a Campaign](https://help.opensense.com/docs/editing-a-campaign.md)
+- [Banner Management](https://help.opensense.com/docs/banner-management.md)
+- [A/B Testing Banners](https://help.opensense.com/docs/ab-testing-banners.md)
+- [Editorial Calendar](https://help.opensense.com/docs/editorial-calendar-1.md)
+- [Introduction to Targeting and Segmentation](https://help.opensense.com/docs/introduction-to-targeting-and-segmentation.md)
+- [Targeting with CRM or Marketing Automation Platforms](https://help.opensense.com/docs/targeting-with-crm-or-marketing-automation-platforms.md)
+- [Campaign Inspiration](https://help.opensense.com/docs/campaign-inspiration.md)
+- [Configure Automatic Group Membership in Opensense](https://help.opensense.com/docs/configure-automatic-group-membership.md): Learn how to automatically add users to Opensense Groups based on profile fields like job title, department, or location using query-based membership rules.
+- [Applying Targeting for Opensense Real Time Personalization Banners](https://help.opensense.com/docs/applying-targeting-for-opensense-real-time-personalization-banners.md)
+- [Getting Started with your Email Signature Marketing Strategy - ABM Edition](https://help.opensense.com/docs/getting-started-with-your-email-signature-marketing-strategy-abm-edition.md)
+- [Signature Management & Deployment FAQ](https://help.opensense.com/docs/signature-management-deployment-faq.md): Find answers to common email signature questions. Learn about signature deployment, mobile display issues, troubleshooting, and manual distribution for new hires.
+- [How to Send a Debug Email](https://help.opensense.com/docs/how-to-send-a-debug-email.md): Learn how to send a #debug email to Opensense support for fast signature troubleshooting. Step-by-step guide for resolving missing, incorrect, or formatting issues.
+- [Why Does My Signature Appear Small on Mobile Devices?](https://help.opensense.com/docs/why-does-my-signature-appear-small-on-mobile-devices.md): Learn why your email signature may appear small on mobile devices and how to fix it. Discover best practices for creating mobile-friendly email signatures, including ideal width, responsive images, and proper text formatting to ensure consistent display across all devices.
+- [How to Share MySig Manually With New Hires?](https://help.opensense.com/docs/how-do-i-share-the-signature-with-a-new-hire.md): Learn how to manually share MySig with new employees using Opensense. This guide walks you through step-by-step instructions for distributing and installing MySig email signatures when automatic deployment isn’t available.
+- [What is the Recommended Size for Banners?](https://help.opensense.com/docs/what-is-the-recommended-size-for-banners.md): Discover the optimal email banner size for maximum engagement and visibility. Learn why 580x150 pixels is recommended, the risks of custom dimensions, and how to ensure compatibility across all major email clients. Get expert support from Opensense.
+- [Why Do Email Signature Elements Appear Distorted in Reply Threads?](https://help.opensense.com/docs/why-does-my-signature-appear-distorted-in-a-reply-thread.md): Wondering why your email signature looks distorted or has missing elements in reply or forwarded threads? Learn the common reasons for email signature distortion in replies and how different email clients affect signature formatting.
+- [How Do I Update Permissions for the Opensense Platform?](https://help.opensense.com/docs/how-do-i-make-someone-an-admin.md): Learn how to manage and update user permissions in Opensense. Follow step-by-step instructions to assign access roles and ensure users have the right permissions for their responsibilities.
+- [How Should I Break the Directory Sync in Opensense?](https://help.opensense.com/docs/breaking-directory-sync-in-opensense.md): Learn how breaking sync works in Opensense. Discover how to manage field synchronization, prevent unwanted overwrites, and control individual field sync settings for user profiles—especially when using the Outlook Add-in.
+- [Banner Campaigns & Marketing FAQ](https://help.opensense.com/docs/frequently-asked-questions-marketing.md): Get answers to common Opensense campaign reporting questions. Learn about vanity clicks from security tools, changing campaign data, unusual click patterns, and how to access delivery reports for your email banner campaigns.
+- [Why Does My Campaign Show an Unusually High Number of Clicks from a Single Contact?](https://help.opensense.com/docs/why-does-my-campaign-show-an-unusually-high-number-of-clicks-from-a-single-contact.md): Discover why Opensense campaigns sometimes report a high number of clicks from a single contact. Learn about email forwarding, security tool “vanity clicks,” and ways to improve your click data accuracy.
+- [Why Has the Data on My Banner Campaign Changed?](https://help.opensense.com/docs/why-has-the-data-on-my-banner-campaign-changed.md): Find out why your Opensense banner campaign data may change over time. Understand how campaign expiry, ongoing engagement, and schedule modifications can impact your campaign reporting and analytics.
+- [Can I Find Out Who My Banner Campaign Was Delivered To?](https://help.opensense.com/docs/can-i-find-out-who-my-banner-campaign-was-delivered-to.md): Learn how to find out who received your Opensense banner campaign, including options for exporting click data and accessing delivery information through custom integrations like Zapier.
+- [How Does Opensense Handle Vanity Clicks from Email Security Tools?](https://help.opensense.com/docs/how-does-opensense-handle-vanity-clicks-from-email-security-tools.md): Discover how Opensense handles "vanity clicks" caused by email security tools like Proofpoint, Mimecast, and Barracuda. Learn how these automated clicks affect your campaign metrics and find best practices to ensure accurate engagement reporting.
+- [Choose a Deployment Method](https://help.opensense.com/docs/choose-a-deployment-method.md): Compare Opensense email signature deployment methods, including Stamping, Plain Text Block, Visual Preview, Outlook Add-in, and Google Add-on, to find the right fit for your organization.
+- [Opensense Outlook Add-in Integration with GCC High Environments](https://help.opensense.com/docs/opensense-add-in-integration-with-gcc-high-environments.md)
+- [Outlook Mobile Add-in within GCC and GCC High Environments](https://help.opensense.com/docs/using-the-outlook-mobile-add-in-within-gcc-environments.md): Configure Opensense Outlook mobile add-in for GCC High environments. Step-by-step guide for government cloud deployment with FedRAMP compliance and troubleshooting.
+- [Outlook Add-in Overview](https://help.opensense.com/docs/outlook-add-in-overview-1.md): An overview of the Opensense Outlook Add-in for Microsoft 365, covering how it works, deployment modes, system requirements, supported environments, and key considerations before deployment.
+- [Outlook Add-in Supported Environments](https://help.opensense.com/docs/supported-environments-for-the-opensense-outlook-add-in.md): Review the supported environments and minimum version requirements for the Opensense Outlook Add-in, including Windows Classic and New Outlook, Outlook for Mac, OWA, mobile, and GCC High support.
+- [Comparing Outlook Add-in Deployment Methods](https://help.opensense.com/docs/deployment-mode-comparison.md): Compare the three Opensense Outlook Add-in deployment modes — stamping, plaintext block, and visual preview — across compliance enforcement, compose visibility, banner targeting, analytics, and encrypted email support.
+- [Outlook Add-in Custom Compose Fields](https://help.opensense.com/docs/custom-compose-fields.md): Configure Custom Compose Fields for the Opensense Outlook Add-in, including dropdowns, checkboxes, and free-text inputs. Covers field labels and values, padlock behavior, assignment priority, and HTML template examples for each field type.
+- [How To Scope Users via Microsoft 365 Admin Outlook Add-in](https://help.opensense.com/docs/clone-outlook-add-in-scope-users-for-opensense-in-m365-admin.md): Step-by-step instructions for deploying the Opensense Outlook Add-in via Microsoft 365 Centralized Deployment, including setting deployment scope, managing group membership, and granting admin consent.
+- [How to Remove Users from Microsoft 365 Add-in Scope](https://help.opensense.com/docs/how-to-remove-the-opensense-add-in-from-m365-admin.md): Step-by-step instructions for removing the Opensense Outlook Add-in from Microsoft 365 via Integrated Apps in the Microsoft 365 Admin Center.
+- [Outlook Add-in Opensense Domain Settings](https://help.opensense.com/docs/clone-outlook-add-in-domain-settings-with-scenarios-and-best-practices.md): Configure the Opensense Outlook Add-in Domain Settings for your organization, including automatic signature insertion, From Switching for shared inboxes and aliases, editable fields, inline images, and multi-signature behavior.
+- [Outlook Add-in Routed Key Behaviors](https://help.opensense.com/docs/clone-outlook-add-in-routed-key-behaviors-and-nuances.md): Understand expected behaviors in routed Opensense Outlook Add-in deployments, including stamping rule field configuration, From Switching, shared accounts, and the add-in pane signature preview.
+- [Outlook Add-in Multi-Signature Selector](https://help.opensense.com/docs/clone-outlook-add-in-multi-signature-selector.md)
+- [Outlook Add-in Visual Preview Capabilities and Tradeoffs](https://help.opensense.com/docs/outlook-add-in-visual-preview-capabilities-and-tradeoffs.md): Understand the capabilities and tradeoffs of the Opensense Outlook Add-in visual preview mode, including compliance risks, banner targeting limitations, analytics differences, and when visual preview is the right choice for your organization.
+- [How To Access Opensense Outlook Add-in on iOS](https://help.opensense.com/docs/how-to-access-opensense-outlook-add-in-on-ios.md): Access the Opensense Outlook Add-in via Outlook for iOS.
+- [How To Access Opensense Outlook Add-in on Android](https://help.opensense.com/docs/how-to-access-opensense-outlook-add-in-on-android.md): Access the Opensense Outlook Add-in via Outlook on Android.
+- [Outlook Add-in Troubleshooting Guide](https://help.opensense.com/docs/outlook-add-in-troubleshooting-guide-2.md): Troubleshoot common issues with the Opensense Outlook Add-in, including inconsistent behavior, field edits not populating, add-in disappearing, and deployment failures via Microsoft Centralized Deployment.
+- [MySig](https://help.opensense.com/docs/mysig.md)
+- [How to Use the Opensense Pusher](https://help.opensense.com/docs/how-to-use-the-opensense-pusher.md)
+- [Exporting a Pusher CSV from Compliance](https://help.opensense.com/docs/exporting-a-pusher-csv-from-compliance.md)
+- [Sample Launch Email Communications](https://help.opensense.com/docs/sample-launch-email-communications.md)
+- [Azure AD Connect sync: Directory extensions](https://help.opensense.com/docs/if-you-have-configured-a-white-labeled-tracking-and-hosting-url-and-your-organization-uses-microsoft-direct-access-you-may-need-to-do-one-minor-confi.md)
+- [Delay in AD to Azure (Entra) AD](https://help.opensense.com/docs/delay-in-ad-to-aad.md)
+- [Syncing Extension Attributes from Azure AD](https://help.opensense.com/docs/syncing-extension-attributes-from-azure-ad.md)
+- [Microsoft Entra Enterprise Applications for Opensense](https://help.opensense.com/docs/opensense-enterprise-applications.md): Reference guide to the three Opensense enterprise applications installed in your Microsoft 365 Azure AD tenant, including Opensense Email Signatures, Directory Sync v3.1, and Opensense Single Sign-On (OIDC), and the impact of removing each.
+- [How Does Opensense Work with Microsoft 365?](https://help.opensense.com/docs/how-does-opensense-work-with-office-365.md): Learn how Opensense integrates with Microsoft 365 through Exchange Online mail flow rules and the Outlook Add-in to centrally manage email signatures, enforce brand compliance, and deliver marketing campaigns on every outbound email.
+- [Microsoft 365 Integration Overview (Change Request)](https://help.opensense.com/docs/change-request-office-365-integration-with-opensense.md)
+- [Why Some Microsoft 365 Headshots Show a White Background](https://help.opensense.com/docs/why-some-microsoft-365-headshots-show-a-white-background.md): Some Microsoft 365 headshots show a white square background depending on where they are updated. Learn why this happens and how to fix the issue by updating your photo directly in Teams.
+- [How to Troubleshoot Outlook Roaming Signatures - Missing or Duplicate Signatures](https://help.opensense.com/docs/how-to-troubleshoot-outlook-roaming-signatures-missing-or-duplicate-signatures.md)
+- [Voting Buttons](https://help.opensense.com/docs/voting-buttons.md)
+- [Emailing into Office 365 Groups triggers a NDR when emailing from internal sender](https://help.opensense.com/docs/emailing-into-office-365-groups-triggers-a-ndr-when-emailing-from-internal-sender.md)
+- [Why do we set use RTF to never in Exchange Online?](https://help.opensense.com/docs/why-do-we-set-use-rtf-to-never-in-exchange-online.md)
+- [Disable email signatures in Outlook for Windows using Intune](https://help.opensense.com/docs/how-to-disable-email-signatures-in-outlook-for-windows-using-intune.md)
+- [What Azure Active Directory fields can be used when syncing with Opensense?](https://help.opensense.com/docs/what-azure-active-directory-fields-can-be-used-when-syncing-with-opensense.md)
+- [Disable existing Microsoft Outlook signatures using a Group Policy (GPO)](https://help.opensense.com/docs/disable-existing-microsoft-outlook-signatures-using-a-group-policy-gpo.md)
+- [Send as vs Send on Behalf](https://help.opensense.com/docs/send-as-vs-send-on-behalf.md)
+- [Shared Mailbox vs User Mailbox](https://help.opensense.com/docs/shared-mailbox-vs-user-mailbox.md)
+- [Exchange Online Tenant Outbound Email Limits (TERRL)](https://help.opensense.com/docs/exhange-online-tenant-outbound-email-limits.md)
+- [Handling Email Delivery During an Opensense Outage (Microsoft 365)](https://help.opensense.com/docs/opensense-outage-guidance.md)
+- [Opensense Google Add-on CR Guide](https://help.opensense.com/docs/opensense-google-add-on-cr-guide.md)
+- [Opensense Google Add-On Overview](https://help.opensense.com/docs/google-add-on-info.md)
+- [End User Launch Experience - G-Suite](https://help.opensense.com/docs/end-user-launch-experience-g-suite.md)
+- [How to Use the Pusher for G-Suite Customers](https://help.opensense.com/docs/how-to-use-the-pusher-for-g-suite-customers.md)
+- [Gmail Pusher Alias 403 Error](https://help.opensense.com/docs/gmail-pusher-alias-403-error.md)
+- [Gmail Launch Communications Strategy and Examples](https://help.opensense.com/docs/gmail-launch-communications-strategy-and-examples.md)
+- [MySig for G-Suite](https://help.opensense.com/docs/mysig-for-g-suite.md)
+- [How Does Opensense Work with Google Workspace?](https://help.opensense.com/docs/how-does-opensense-work-with-google-workspace.md): Learn how Opensense integrates with Google Workspace to manage email signatures. Covers Content Compliance routing, the Pusher tool, stamping, plaintext block push, visual preview push, the Google Add-on, and key integration dependencies.
+- [Google Workspace API Scopes](https://help.opensense.com/docs/google-workspace-permissions.md): A breakdown of the Google Workspace OAuth scopes Opensense uses for directory sync and Gmail signature deployment, with security and access details.
+- [Google Workspace Integration Overview (Change Request)](https://help.opensense.com/docs/google-workspace-integration-overview.md)
+- [Disable Opensense for an Organizational Unit in G-Suite](https://help.opensense.com/docs/disable-opensense-for-an-organizational-unit-in-g-suite.md)
+- [How to Make Your Gmail Profile Picture Visible to Anyone](https://help.opensense.com/docs/how-to-make-your-gmail-profile-picture-visible-to-anyone.md): Learn how to make your Gmail profile picture visible to anyone. Step-by-step guide for Google Workspace users and admin settings for Opensense sync.
+- [Fixing Duplicate Email Signatures in Google Workspace](https://help.opensense.com/docs/why-duplicate-signatures-occur-with-stamping-deployment.md)
+- [Email Deliverability and Spam Issues](https://help.opensense.com/docs/email-deliverability-spam-issues.md): Troubleshoot email deliverability issues with Opensense signatures. Learn about spam filters, domain reputation, SPF/DKIM/DMARC configuration, and best practices.
+- [Recall Messages](https://help.opensense.com/docs/recall-messages-1.md)
+- [Understanding UCEPROTECT Blocklist Listings](https://help.opensense.com/docs/understanding-uceprotect-blocklist-listings.md)
+- [Opensense SSL Certificates via Let’s Encrypt: CNAME and CAA Requirements](https://help.opensense.com/docs/opensense-ssl-certificates-using-letsencrypt.md)
+- [Understanding BIMI (Brand Indicators for Message Identification)](https://help.opensense.com/docs/bimi-overview.md)
+- [Required DNS Settings for Opensense](https://help.opensense.com/docs/dns-entries-must-have.md)
+- [Cloudflare CNAME Proxy Settings](https://help.opensense.com/docs/cname-cloudflare-proxy-settings.md)
+- [How to Verify Your DNS Records](https://help.opensense.com/docs/how-to-check-your-dns-records.md)
+- [Opensense IP Addresses for Whitelisting](https://help.opensense.com/docs/opensense-ip-addresses-for-whitelisting.md): Opensense IPs for whitelisting and static on-prem configurations.
+- [Allowing Opensense Traffic Through Your Network Proxy or Firewall](https://help.opensense.com/docs/opensense-proxy-firewall.md): Learn how to whitelist Opensense domains in networks using proxy or firewall solutions like Forcepoint or zScaler. Includes required domains, SSL bypass rules, troubleshooting, and verification steps.
+- [Editing User Data Guide](https://help.opensense.com/docs/editing-user-data-guide.md)
+- [Individual Edits in Users & Compliance](https://help.opensense.com/docs/individual-edits-in-users-compliance.md)
+- [Bulk Edits in Users & Compliance](https://help.opensense.com/docs/bulk-edits-in-users-compliance.md)
+- [Locking & Unlocking Compliance Fields](https://help.opensense.com/docs/locking-unlocking-compliance-fields.md)
+- [Removing Users](https://help.opensense.com/docs/removing-users.md)
+- [Manual Sync of a CSV File](https://help.opensense.com/docs/manual-sync-of-a-csv-file.md)
+- [Forced Sync from a Directory](https://help.opensense.com/docs/forced-sync-from-a-directory.md)
+- [FTP Data Sync Technical Specs](https://help.opensense.com/docs/ftp-data-sync-technical-specs.md)
+- [Field Data Priority](https://help.opensense.com/docs/field-data-priority.md)
+- [Field Data Priority with Department Fields](https://help.opensense.com/docs/field-data-priority-with-department-fields.md)
+- [Front Integration](https://help.opensense.com/docs/front.md): Learn how to connect Front to Opensense using the Front API to sync teammates and push company-managed email signatures directly into their accounts.
+- [Front SMTP Relay](https://help.opensense.com/docs/front-smtp-relay-setup.md): Learn how to configure an SMTP relay in Front to route outbound email through Opensense for signature application. Covers credential retrieval from Opensense, port selection (25 or 587), and per-channel setup for individual and shared inboxes.
+- [Front Preset Signatures](https://help.opensense.com/docs/front-plaintext-signature-block.md): Learn how to add a plaintext signature block in Front for individual and shared inboxes. Includes the required Opensense delimiter syntax, dynamic user variables, and configuration steps for both personal and workspace-level signatures.
+- [BambooHR Field Mapping](https://help.opensense.com/docs/authorizing-bamboohr-field-mapping.md)
+- [How to Setup Okta Directory Sync](https://help.opensense.com/docs/okta-1.md): Learn how to configure Okta directory sync with Opensense for automated user provisioning. Includes setup steps, attribute mapping, and troubleshooting tips.
+- [Adding Opensense Fields in Pardot](https://help.opensense.com/docs/adding-opensense-fields-in-pardot.md)
+- [Setting up Pardot Opensense Side](https://help.opensense.com/docs/setting-up-pardot-opensense-side.md)
+- [Salesforce Integration Requirements](https://help.opensense.com/docs/salesforce-integration-requirements.md): Learn what Salesforce permissions, admin access, and AppExchange setup are required to connect your Salesforce org to Opensense for recipient-based banner targeting, email signatures, and user directory sync.
+- [How do you setup your Salesforce email signature?](https://help.opensense.com/docs/how-do-you-setup-your-salesforce-email-signature.md)
+- [Query Salesforce Data for Personalized Email Signatures with Opensense](https://help.opensense.com/docs/how-to-find-fields-you-would-like-to-query.md): Opensense can query your Salesforce data to personalize the email signature based on Contact, Account, and Lead objects.
+- [Hubspot Integration](https://help.opensense.com/docs/hubspot-integration.md)
+- [Create a HubSpot Workflow for Recipient Based Targeting](https://help.opensense.com/docs/create-a-hubspot-workflow.md)
+- [Outreach Integration Permissions](https://help.opensense.com/docs/outreach-integration-permissions.md): A breakdown of the four OAuth permissions Opensense requests when connecting to Outreach, including what each permission accesses and why it is needed.
+- [Outreach Integration](https://help.opensense.com/docs/outreach-integration.md): Discover how to integrate Outreach with your tech stack. Step-by-step setup guide, best practices, and tips to maximize sales engagement and productivity.
+- [Zapier Integration](https://help.opensense.com/docs/zapier-integration.md)
+- [Okta Configuration Guide](https://help.opensense.com/docs/okta-configuration-guide.md)
+- [SSO Authentication](https://help.opensense.com/docs/opensense-supports-saml.md)
+- [SFTP Sync to Opensense](https://help.opensense.com/docs/external-sftp-sync.md)
+- [Workday SFTP Sync for Opensense](https://help.opensense.com/docs/workday-sftp-sync-for-opensense.md)
+- [CR - Workday SFTP Sync for Opensense](https://help.opensense.com/docs/cr-workday-sftp-sync-for-opensense-1.md)
+- [Automated Sync Frequency](https://help.opensense.com/docs/automatic-sync-frequency.md): Learn how often Opensense automatically syncs user and group data from Microsoft 365, Google Workspace, and third-party integrations like Okta, Salesforce, BambooHR, Outreach, and SFTP — and how to trigger a manual sync when you need immediate updates.
+- [Directory Sync Data Transformation](https://help.opensense.com/docs/transforming-directory-field-data-using-liquid-and-regex.md): Learn how to reformat directory data before it appears in Opensense email signatures using regex transforms and Liquid. Covers phone number formatting, name order, case standardization, character removal, and how to choose the right approach for each scenario.
+- [Calendar Invites and Automatic Replies](https://help.opensense.com/docs/ooo-replies-and-calendar-invites-in-o365.md): Why calendar invites aren't stamped with Opensense signatures and how to configure Out-of-Office replies for Microsoft 365 and Google Workspace users.
+- [What is the Opensense Signature Block?](https://help.opensense.com/docs/what-is-the-opensense-signature-block.md): Learn about the Opensense Signature Block - the customizable HTML section of your email signature that displays employee contact information, branding elements, social links, and dynamic marketing content. Discover how signature blocks work.
+- [Editing your Signature Block Data](https://help.opensense.com/docs/editing-your-signature-block-data.md)
+- [Sending More than One Signature](https://help.opensense.com/docs/sending-more-than-one-signature.md)
+- [Shared Inboxes](https://help.opensense.com/docs/shared-inboxes.md): Learn how to configured shared inboxes within the Opensense platform.
+- [How Do I Update Permissions for the Opensense Platform?](https://help.opensense.com/docs/how-do-i-update-permissions-for-the-opensense-platform.md): Learn how to manage and update user permissions in Opensense. Follow step-by-step instructions to assign access roles and ensure users have the right permissions for their responsibilities.
+- [Enabling Opensense Services On A New Domain](https://help.opensense.com/docs/enabling-opensense-services-on-a-new-domain.md): Some technical configurations are required to deliver the same email signature experience you are receiving on your current domain. We'll need these in place before we can begin the work on our end.
+- [Opensense Admin Introduction](https://help.opensense.com/docs/opensense-admin-intro.md)
+- [Finding Which Signature Design Templates are Active](https://help.opensense.com/docs/finding-which-signature-design-templates-are-active.md)
+- [Find your Active User Count](https://help.opensense.com/docs/find-your-active-user-count.md)
+- [Adding Additional Domains](https://help.opensense.com/docs/adding-additional-domains.md)
+- [Multi-Domain Management](https://help.opensense.com/docs/multi-domain-management.md)
+- [How to Reset Your Opensense Password (Non-SSO Users)](https://help.opensense.com/docs/update-your-password.md): Locked out of your Opensense account? Follow our step-by-step guide to reset your password, including requirements and troubleshooting tips for non-SSO users.
+- [How to Log Into Opensense](https://help.opensense.com/docs/how-to-log-into-opensense.md): Learn how to log in to your Opensense account. Includes step-by-step instructions, password reset options, and troubleshooting login issues.
+- [HTML & Field Types](https://help.opensense.com/docs/html-field-types.md)
+- [Conditional Fields (NEW! Liquid Templates)](https://help.opensense.com/docs/conditional-fields-new-liquid-templates.md)
+- [Hidden Fields (NEW! Liquid Templates)](https://help.opensense.com/docs/hidden-fields-new-liquid-templates.md)
+- [External and Internal Wraps (NEW! Liquid Templates)](https://help.opensense.com/docs/external-and-internal-wraps-new-liquid-templates.md)
+- [Displaying Sender or Recipient Email (NEW! Liquid Templates)](https://help.opensense.com/docs/displaying-sender-or-recipient-email-new-liquid-templates.md)
+- [Display Signature Elements Based on Field Value (Liquid Templates Only)](https://help.opensense.com/docs/display-signature-elements-based-on-field-value-liquid-templates-only.md)
+- [Add Comments into Design Templates (Liquid Templates Only)](https://help.opensense.com/docs/add-comments-into-design-templates-liquid-templates-only.md)
+- [Web-Safe Fonts (NEW! Liquid Templates)](https://help.opensense.com/docs/web-safe-fonts-new-liquid-templates.md)
+- [Designer Studio (NEW! Liquid Templates)](https://help.opensense.com/docs/designer-studio-new-liquid-templates.md)
+- [How to Change Images and Links (NEW! Liquid Templates)](https://help.opensense.com/docs/how-to-change-images-and-links-new-liquid-templates.md)
+- [Condensing Many Signatures into One (NEW! Liquid Templates)](https://help.opensense.com/docs/condensing-many-signatures-into-one-new-liquid-templates.md)
+- [Signature Design Examples - NEW!](https://help.opensense.com/docs/signature-design-examples-new.md)
+- [HTML & Field Types](https://help.opensense.com/docs/html-field-types-1.md)
+- [Conditional Fields (Pre-2022 Legacy)](https://help.opensense.com/docs/conditional-fields-pre-2022-legacy.md)
+- [Hidden Fields (Pre-2022 Legacy)](https://help.opensense.com/docs/hidden-fields-pre-2022-legacy.md)
+- [External and Internal Wraps (Pre-2022 Legacy)](https://help.opensense.com/docs/external-and-internal-wraps-pre-2022-legacy.md)
+- [Displaying Sender or Recipient Email (Pre-2022 Legacy)](https://help.opensense.com/docs/displaying-sender-or-recipient-email-pre-2022-legacy.md)
+- [Web-Safe Fonts](https://help.opensense.com/docs/web-safe-fonts.md)
+- [Designer Studio (Pre-2022 Legacy)](https://help.opensense.com/docs/designer-studio-pre-2022-legacy.md)
+- [Converting to Liquid Templates (Pre-2022 Legacy)](https://help.opensense.com/docs/converting-to-liquid-templates-pre-2022-legacy.md)
+- [How to Change Images and Links (Pre-2022 Legacy)](https://help.opensense.com/docs/how-to-change-images-and-links-pre-2022-legacy.md)
+- [Condensing Many Signatures into One](https://help.opensense.com/docs/condensing-many-signatures-into-one.md)
+- [Working with gifs in Email Signatures](https://help.opensense.com/docs/working-with-gifs-in-email-signatures.md)
+- [How to Upload Images to Opensense](https://help.opensense.com/docs/how-to-upload-images-to-opensense.md)
+- [Images Help Guide](https://help.opensense.com/docs/images-help-guide.md)
+- [In-line vs. Hosted images](https://help.opensense.com/docs/in-line-vs-hosted-images.md)
+- [How to Set Up Inline Images](https://help.opensense.com/docs/how-to-set-up-inline-images.md)
+- [Fix for Black Background in Transparent Images](https://help.opensense.com/docs/fix-for-black-background-in-transparent-images.md)
+- [Optimizing Logos for Dark Mode Email Signatures](https://help.opensense.com/docs/optimizing-logos-for-dark-mode-email-signatures-1.md)
+- [How to Add Headshots to Email Signatures](https://help.opensense.com/docs/how-to-add-headshots-to-email-signatures.md)
+- [Assigning a Signature Template to a Department](https://help.opensense.com/docs/assigning-a-signature-template-to-a-department.md)
+- [Creating a Department and Adding Users](https://help.opensense.com/docs/creating-a-department-and-adding-users.md)
+- [Department Fields](https://help.opensense.com/docs/department-fields.md)
+- [Removing the Stamped Signature from Emails](https://help.opensense.com/docs/removing-the-stamped-signature-from-emails.md)
+- [Shared Inboxes for Stamping Customers](https://help.opensense.com/docs/shared-inboxes-for-stamping-customers.md)
+- [Opensense Outlook Add-in Launch Guide - Everything You Need to Know](https://help.opensense.com/docs/opensense-outlook-add-in-launch-guide-everything-you-need-to-know.md): Centrally manage the appearance and content of company email signatures via the Opensense Outlook Add-in.
+- [MySig Launch Guide - Everything You Need to Know](https://help.opensense.com/docs/mysig-launch-guide-everything-you-need-to-know.md)
+- [Stamping Launch Guide - Everything You Need to Know](https://help.opensense.com/docs/stamping-launch-guide-everything-you-need-to-know.md)
+- [Email Notification Launch Guide - Everything You Need to Know](https://help.opensense.com/docs/email-notification-launch-guide-everything-you-need-to-know.md)
+- [Google Push and Stamping Hybrid Launch Guide - Everything You Need To Know](https://help.opensense.com/docs/google-push-and-stamping-hybrid-launch-guide-everything-you-need-to-know.md)
+- [Gmail Launch - Everything You Need to Know](https://help.opensense.com/docs/gmail-launch-everything-you-need-to-know.md)

@@ -1,0 +1,116 @@
+generated: '2026-08-13'
+method: searched
+source: https://www.opensense.com/pricing
+currency: USD
+billing_period: month
+unit: per user
+plan_count: 6
+notes: >-
+  Opensense publishes list pricing publicly — unusual for an enterprise
+  email-signature platform. Two separate product ladders are priced: Email
+  Signature (Signature / Pipeline / Complete) and Email Tracking (Bronze /
+  Silver / Gold). Both ladders carry a stated $500/month account minimum, so
+  the per-user rate is a floor price rather than the entry cost. Enterprise
+  terms remain "contact sales". These are the plans for the PRODUCT; Opensense
+  publishes no API-specific plan, quota, or metered API pricing, and API access
+  is arranged through an Opensense integration specialist.
+families:
+- family: Email Signature
+  minimum: $500/month account minimum
+  trial: available for qualified accounts
+  plans:
+  - name: Signature
+    price: 1
+    currency: USD
+    period: month
+    unit: per user
+    includes:
+    - Centrally managed and deployed signatures
+    - Works on all devices and email clients
+    - Custom signature fields and HTML templating
+    - Department-specific signatures
+    - Directory integrations only
+  - name: Pipeline
+    price: 3
+    currency: USD
+    period: month
+    unit: per user
+    includes:
+    - Everything in Signature
+    - Scheduled marketing banner campaigns
+    - A/B testing for banners
+    - Internal and department-based targeting
+    - HR system integrations
+    - Banner insights at recipient level
+  - name: Complete
+    price: 5
+    currency: USD
+    period: month
+    unit: per user
+    includes:
+    - Everything in Pipeline
+    - Stage-based and recipient-based targeting
+    - Marketing automation integrations (HubSpot, Marketo)
+    - CRM integrations (Salesforce, Zoho)
+    - Sales tools integrations (Outreach, Salesloft)
+    - Third-party plugin integrations
+- family: Email Tracking
+  minimum: $500/month account minimum
+  trial: available for qualified accounts
+  plans:
+  - name: Bronze
+    price: 20
+    currency: USD
+    period: month
+    unit: per user
+    includes:
+    - Event tracking (opens, clicks, sends)
+    - Multiple-recipient tracking
+    - Real-time notifications
+    - Sales tool integrations
+  - name: Silver
+    price: 55
+    currency: USD
+    period: month
+    unit: per user
+    includes:
+    - Everything in Bronze
+    - Document, website and video tracking
+    - Basic replay capabilities
+  - name: Gold
+    price: 65
+    currency: USD
+    period: month
+    unit: per user
+    includes:
+    - Everything in Silver
+    - Advanced document and website tracking with live replay
+    - CRM syncing
+    - Embeddable CRM widgets
+add_ons:
+- name: Microsoft GCC High
+  price: 2
+  currency: USD
+  period: month
+  unit: per user
+- name: Real-time compliance
+  price: 15
+  currency: USD
+  period: month
+  unit: per user
+  applies_to: Bronze
+- name: Real-time compliance
+  price: 10
+  currency: USD
+  period: month
+  unit: per user
+  applies_to: Silver
+- name: Real-time compliance
+  price: 5
+  currency: USD
+  period: month
+  unit: per user
+  applies_to: Gold
+enterprise:
+  published: false
+  note: Enterprise pricing is "contact sales" only.

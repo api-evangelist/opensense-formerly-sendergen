@@ -1,0 +1,118 @@
+generated: '2026-08-13'
+method: probed
+source: live GET probes of every Opensense host named in apis.yml
+summary: >-
+  No /.well-known/ document is served on any Opensense host. www.opensense.com
+  and help.opensense.com return an HTML 404 page for every well-known path.
+  app.opensense.com, accounts.opensense.com and the apex opensense.com return a
+  soft HTTP 200 whose body is the seven-byte string "unknown" for EVERY
+  well-known path probed — a catch-all, not a document. Per the pipeline rule,
+  no WellKnown or SecurityTxt pointer is emitted: a 200 that does not carry a
+  real document is a miss.
+hosts:
+- host: https://www.opensense.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://help.opensense.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://app.opensense.com
+  note: >-
+    Catch-all responder. Every path below returned HTTP 200 with the literal
+    body "unknown" (7 bytes, text/plain). Treated as a MISS, not a hit.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/agent-card.json
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/agent.json
+    status: 200
+    soft_200: true
+    body: unknown
+- host: https://accounts.opensense.com
+  note: Same catch-all responder as app.opensense.com; all probes soft-200 "unknown".
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/agent-card.json
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/security.txt
+    status: 200
+    soft_200: true
+    body: unknown
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_200: true
+    body: unknown
+- host: https://opensense.com
+  documents:
+  - path: /.well-known/agent-card.json
+    status: 200
+    soft_200: true
+    body: unknown
+adjacent:
+- path: /robots.txt
+  host: https://www.opensense.com
+  status: 200
+  file: opensense-formerly-sendergen-robots.txt
+  note: >-
+    Not a /.well-known/ path, captured because it carries an explicit,
+    dated agent policy. Opensense allows AI assistants, AI search and agent
+    traffic including training crawlers ("decision 2026-07-31"), naming GPTBot,
+    OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User, Claude-SearchBot,
+    PerplexityBot, Google-Extended, Applebot-Extended, Amazonbot,
+    meta-externalagent, DuckAssistBot, CCBot, cohere-ai, FirecrawlAgent and
+    others, with the RFC 9309 non-inheritance caveat spelled out in comments.
+    Every group Disallows /api/.
+- path: /llms.txt
+  host: https://www.opensense.com
+  status: 200
+  file: ../llms/opensense-formerly-sendergen-llms.txt
+- path: /llms.txt
+  host: https://help.opensense.com
+  status: 200
+  file: ../llms/opensense-formerly-sendergen-help-llms.txt

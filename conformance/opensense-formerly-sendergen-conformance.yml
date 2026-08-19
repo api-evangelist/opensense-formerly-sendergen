@@ -1,0 +1,125 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  https://www.opensense.com/security, https://www.opensense.com/llms.txt,
+  https://www.opensense.com/gcc-high-email-signatures,
+  https://help.opensense.com/docs/opensense-supports-saml.md,
+  https://help.opensense.com/docs/google-workspace-permissions.md,
+  https://help.opensense.com/docs/outreach-integration-permissions.md
+summary: >-
+  Opensense's conformance posture is organizational and platform-level, not
+  contract-level. It publishes named attestations and government-cloud
+  eligibility, and it implements standard enterprise identity and OAuth 2.0
+  client flows. It asserts no API-contract standard — no OpenAPI, AsyncAPI,
+  JSON Schema, RFC 9457 problem details, pagination or idempotency convention
+  is published, because no public API contract is published at all.
+standards:
+- id: soc2
+  name: SOC 2 Type II
+  conforms: true
+  evidence: >-
+    "Opensense is SOC 2 Type II certified — the attestation covers the Security,
+    Confidentiality, and Availability trust services categories and is completed
+    annually."
+  source: https://www.opensense.com/llms.txt
+- id: gdpr
+  name: GDPR
+  conforms: true
+  evidence: >-
+    Complies with GDPR as a data processor, transferring data under Standard
+    Contractual Clauses.
+  source: https://www.opensense.com/llms.txt
+- id: ccpa
+  name: CCPA
+  conforms: true
+  evidence: CCPA compliance with employee notices built into the product.
+  source: https://www.opensense.com/llms.txt
+- id: hipaa
+  name: HIPAA
+  conforms: true
+  evidence: HIPAA named on the Opensense security page.
+  source: https://www.opensense.com/security
+- id: fedramp
+  name: FedRAMP / ITAR / DFARS / CMMC (Microsoft 365 GCC High)
+  conforms: partial
+  evidence: >-
+    Opensense states it is the only email signature platform that operates
+    inside Microsoft 365 GCC High, serving organizations with FedRAMP, ITAR,
+    DFARS and CMMC obligations. This is stated as GCC High tenancy and
+    compliance ALIGNMENT for those regimes, not as an independent FedRAMP
+    authorization of Opensense itself; no FedRAMP ATO or marketplace listing was
+    located.
+  source: https://www.opensense.com/gcc-high-email-signatures
+- id: saml2
+  name: SAML 2.0
+  conforms: true
+  evidence: >-
+    "Opensense fully supports SAML 2.0" with Okta, SAP, Oracle, OneLogin and
+    Ping Identity named as identity providers.
+  source: https://help.opensense.com/docs/opensense-supports-saml.md
+- id: oauth2
+  name: OAuth 2.0
+  conforms: partial
+  evidence: >-
+    Opensense acts as an OAuth 2.0 CLIENT against Google Workspace and Outreach,
+    with itemised scopes published for both. It does not act as an OAuth
+    authorization server — no /.well-known/oauth-authorization-server or
+    /.well-known/openid-configuration document is served on any Opensense host.
+  source: https://help.opensense.com/docs/outreach-integration-permissions.md
+- id: oidc
+  name: OpenID Connect
+  conforms: false
+  evidence: >-
+    No OIDC discovery document on www, app, accounts or the apex host; probes
+    return 404 or a soft-200 "unknown" catch-all.
+  source: well-known/opensense-formerly-sendergen-well-known.yml
+- id: tls
+  name: TLS 1.2+ in transit / AES-256 at rest
+  conforms: true
+  evidence: >-
+    "All data in transit is encrypted with TLS 1.2 or later; customer data at
+    rest is encrypted with 256-bit ciphers." Live probe observed TLS 1.3 on
+    www.opensense.com with HSTS max-age 31536000.
+  source: https://www.opensense.com/security
+- id: rfc9309
+  name: RFC 9309 (Robots Exclusion Protocol)
+  conforms: true
+  evidence: >-
+    robots.txt is authored against RFC 9309 §2.2.1 explicitly, noting that named
+    groups do not inherit from the wildcard group and that records sharing a
+    product token are merged. AI assistants, AI search and training crawlers are
+    all allowed by a dated decision (2026-07-31); every group disallows /api/.
+  source: well-known/opensense-formerly-sendergen-robots.txt
+- id: llmstxt
+  name: llms.txt
+  conforms: true
+  evidence: >-
+    Served on both the marketing host and the documentation host. The docs
+    llms.txt is a 190-page index and every help article is retrievable as
+    markdown at its .md URL, with a documentation-index pointer injected into
+    each page.
+  source: https://help.opensense.com/llms.txt
+- id: openapi
+  name: OpenAPI
+  conforms: false
+  evidence: >-
+    No OpenAPI/Swagger document on any host. api.opensense.com 302s to
+    www.opensense.com and returns text/plain "Not Found" for /openapi.json,
+    /swagger.json, /v1/openapi.json, /api-docs, /docs, /redoc, /graphql.
+  source: openapi discovery probes, 2026-08-13
+- id: rfc9457
+  name: RFC 9457 Problem Details
+  conforms: false
+  evidence: No public error contract is published.
+- id: asyncapi
+  name: AsyncAPI
+  conforms: false
+  evidence: >-
+    Event delivery exists (Zapier triggers for Banner Click, Attachment
+    Download, New Recipient) but is mediated by Zapier; Opensense publishes no
+    first-party webhook catalog or AsyncAPI document.
+  source: https://help.opensense.com/docs/zapier-integration.md
+- id: mcp
+  name: Model Context Protocol
+  conforms: false
+  evidence: No hosted or packaged MCP server found.

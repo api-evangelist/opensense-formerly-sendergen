@@ -1,0 +1,101 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  https://help.opensense.com/docs/opensense-supports-saml.md,
+  https://help.opensense.com/docs/zapier-integration.md,
+  https://help.opensense.com/docs/google-workspace-permissions.md,
+  https://help.opensense.com/docs/outreach-integration-permissions.md,
+  https://www.opensense.com/llms.txt
+docs: https://help.opensense.com/docs/opensense-supports-saml.md
+summary: >-
+  Opensense documents authentication for the PLATFORM, not for a public API.
+  Administrators sign in to app.opensense.com via SAML 2.0 SSO (or a password
+  for non-SSO users). A REST API is advertised on the marketing site and in
+  llms.txt, but the only publicly documented way to obtain a credential for it
+  is to ask an Opensense integration specialist for an API key — there is no
+  self-service key issuance, no developer portal, and no published token
+  endpoint. Derived scheme detail is unavailable because Opensense publishes no
+  OpenAPI or other machine-readable contract.
+schemes:
+- id: saml-sso
+  type: saml
+  applies_to: Opensense web application sign-in (app.opensense.com / accounts.opensense.com)
+  spec: SAML 2.0
+  providers:
+  - Okta
+  - SAP
+  - Oracle
+  - OneLogin
+  - Ping Identity
+  note: >-
+    "Opensense fully supports SAML 2.0 for secure and seamless integration with
+    your identity provider. Contact your account manager for more information!"
+  source: https://help.opensense.com/docs/opensense-supports-saml.md
+- id: password
+  type: http
+  scheme: password
+  applies_to: Non-SSO Opensense user sign-in
+  source: https://help.opensense.com/docs/update-your-password.md
+- id: api-key
+  type: apiKey
+  applies_to: Opensense REST API / Zapier integration
+  issuance: manual
+  self_service: false
+  note: >-
+    "Enter your domain and the Zapier API key. An Opensense integration
+    specialist can provide you an API key if you don't already have one." The
+    key's transport (header vs query parameter), name, format, rotation policy
+    and expiry are not published.
+  transport: undocumented
+  source: https://help.opensense.com/docs/zapier-integration.md
+provisioning:
+  scim: false
+  note: >-
+    User provisioning and de-provisioning is documented via Okta, and directory
+    sync from Azure AD / Entra ID, on-premise AD, Google Directory and Workday.
+    SCIM is not named by Opensense.
+  source: https://www.opensense.com/llms.txt
+consumed_oauth_scopes:
+  note: >-
+    These are OAuth 2.0 scopes Opensense REQUESTS FROM third-party platforms as
+    an OAuth client. They are not scopes Opensense issues for its own API, so no
+    OAuthScopes pointer is emitted from them. Recorded because they are the only
+    published, itemised authorization surface this provider has.
+  providers:
+  - provider: Google Workspace
+    flow: OAuth 2.0 (Google Workspace Marketplace app "Opensense (formerly SenderGen)", publisher Opensense Inc.)
+    data_flow: one-way, Google Workspace to Opensense
+    scopes:
+    - scope: https://www.googleapis.com/auth/admin.directory.user.readonly
+      access: read-only
+      purpose: Pull user attributes (name, title, department)
+    - scope: https://www.googleapis.com/auth/admin.directory.group.readonly
+      access: read-only
+      purpose: Identify group memberships to assign the correct signature template
+    - scope: https://www.googleapis.com/auth/admin.directory.orgunit.readonly
+      access: read-only
+      purpose: Filter or target based on the user's OU placement
+    - scope: https://www.googleapis.com/auth/gmail.settings.basic
+      access: read-write
+      purpose: Edit email signatures for the user's primary account
+    source: https://help.opensense.com/docs/google-workspace-permissions.md
+  - provider: Outreach
+    flow: OAuth 2.0, authorized by an Outreach administrator
+    scopes:
+    - scope: users.all
+      purpose: Read user profile data to populate and sync Opensense signature fields
+    - scope: teams.read
+      purpose: Read team and group membership to assign users to Opensense groups
+    - scope: mailboxes.all
+      purpose: >-
+        Read and write Outreach mailbox settings to push the Opensense signature
+        block. Applies to Outreach mailbox records only; does not grant access to
+        the underlying Microsoft 365 / Google Workspace accounts.
+    - scope: prospects.read
+      purpose: Read prospect records to support recipient-based banner targeting
+    source: https://help.opensense.com/docs/outreach-integration-permissions.md
+gaps:
+- No public API reference or machine-readable specification
+- API key transport, format and rotation are undocumented
+- No self-service credential issuance; keys are requested from a human
+- No OAuth authorization server or OIDC discovery document is served on any Opensense host
