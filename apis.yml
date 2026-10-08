@@ -68,6 +68,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: RateLimits
+  url: rate-limits/opensense-formerly-sendergen-rate-limits.yml
 - type: Website
   url: https://www.opensense.com/
 - type: Support
