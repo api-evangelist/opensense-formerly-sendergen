@@ -2,6 +2,7 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
+- hubspot/integrations/hubspot-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -19,3 +20,22 @@ edges:
   seller_name: Opensense
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: HubSpot (own)
+  partner: hubspot
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://ecosystem.hubspot.com/marketplace/listing/opensense
+  mirror_of: hubspot/integrations/hubspot-integration-edges.yml
+  apps:
+  - Opensense
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: ACCOUNT_BASED_MARKETING
+source:
+- hubspot/integrations/hubspot-integration-edges.yml
